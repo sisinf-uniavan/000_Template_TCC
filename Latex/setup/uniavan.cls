@@ -33,10 +33,15 @@
 %                               Atualizações
 %
 %  04-03-22 - Incorporado pacote listings para inclusão de códigos-fonte.
+
 %  27-03-22 - Ajustes de fontes e legendas de imagens.
+
 %  21-06-22 - Impressão da lista de símbolos.
+
 %  13-06-24 - Adicionada linguagem GroovyScript.
+
 %  21-03-26 - Revisão do modelo às normas ABNT até 2025.
+
 %  09-11-26 - Revisão da classe UNIAVAN V26.2:
 %             - Títulos e entradas longas do sumário sem justificação.
 %             - Hifenização automática desativada.
@@ -131,6 +136,16 @@
 \RequirePackage[table]{xcolor} % colorir tabelas
 \RequirePackage{upgreek} % colocar X na tabela
 \RequirePackage[none]{hyphenat} % Desativa a separação silábica automática.
+
+% Impede separação silábica
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+% Permite ajustar as linhas sem cortar palavras
+\tolerance=3000
+\emergencystretch=3em
+
+
 \RequirePackage{quoting} % permite ajustar margem a direita para epigrafe
 \RequirePackage{subcaption} % permitir mais de uma figura
 \renewcommand{\familydefault}{epigrafica} 
