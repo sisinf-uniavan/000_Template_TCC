@@ -41,7 +41,7 @@ O repositório inclui código-fonte, materiais de apoio, apresentações e refer
 
 Se este trabalho for utilizado em pesquisas ou projetos, cite da seguinte forma:
 
-> **[SOBRENOME, Nome]**. *[Título do Trabalho]*. Trabalho de Conclusão de Curso (Bacharelado em Sistemas de Informaação) — Centro Universitário Avantis - UNIAVAN, [Ano].
+> **[SOBRENOME, Nome]**. *[Título do Trabalho]*. Trabalho de Conclusão de Curso (Bacharelado em Sistemas de Informação) — Centro Universitário Avantis - UNIAVAN, [Ano].
 
 ---
 
